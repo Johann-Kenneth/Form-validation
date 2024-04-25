@@ -32,9 +32,10 @@ function result(){
 
   
   else{
-        result.textContent="Success!!" + "\n" + "Username - " +userName.value  + "\n" + "  Password - " +pass.value
+        result.textContent="Success!!" + '\n' + "Username - " +userName.value  + '\n' + "  Password - " +pass.value
         userName.style.border=""; pass.style.border=""; 
-        result.style.color="black"
+        result.style.color="black";
+        userName.style.background=""; pass.style.background="";
 
 
 
